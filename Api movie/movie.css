@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+}
+.topnav{
+    overflow: hidden;
+    padding: 10px;
+    background-color: #131720;
+}
+.topnav a{
+    float: left; 
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+.topnav .search_container{
+    float: right;
+}
+form{
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    height: 43px;
+    width: 300px;
+    background-color: #151f30; 
+}
+input{
+    all: unset;
+    font: 15px system-ul;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 6px 9px;
+}
+.thumnail{
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    background-color: #151f30;
+    text-align: center;
+}
